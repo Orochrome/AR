@@ -90,9 +90,47 @@
       
       
       
-      
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Wall Poster Test</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f0f0; }
+        model-viewer { width: 100%; height: 100%; background-color: #fafafa; }
+        .ar-button {
+            background-color: #007bff; color: white; border: none; border-radius: 8px;
+            padding: 12px 24px; position: absolute; bottom: 50px; left: 50%;
+            transform: translateX(-50%); cursor: pointer; font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <model-viewer 
+        src="kodama2.glb" 
+        ar 
+        ar-modes="scene-viewer webxr quick-look" 
+        ar-placement="wall" 
+        camera-controls 
+        touch-action="pan-y" 
+        alt="A 3D poster on your wall">
+        
+        <button slot="ar-button" class="ar-button">
+            👋 Place on my Wall
+        </button>
+    </model-viewer>
+
+</body>
+</html>
  
-    <h1>Model Viewer Test</h1>
+    
+
+
+
+<h1>Model Viewer Test</h1>
     <!-- Load your local model -->
     <model-viewer
         src="/kodama2.glb"
@@ -112,3 +150,4 @@
   </div>
 
 </body>
+
