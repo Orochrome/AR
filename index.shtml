@@ -95,7 +95,7 @@
     <h1>Model Viewer Test</h1>
     <!-- Load your local model -->
     <model-viewer
-        src="/test/kodama2.glb"
+        src="/kodama2.glb"
         alt="Kodama Model"
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -110,4 +110,5 @@
 
     <!--#include virtual="/includes/footer.shtml" -->
   </div>
+
 </body>
