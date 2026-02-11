@@ -146,11 +146,12 @@
       <!-- END OF CONTENT -->
     </div>
 
-    <!--#include virtual="/includes/footer.shtml" -->
+    <!--#include virtual="https://twiku.com/includes/footer.shtml" -->
   </div>
 
 </body>
 </html>
+
 
 
 
