@@ -111,7 +111,7 @@
 
 
     <model-viewer 
-        src="kodama2.txt" 
+        src="/kodama2.glb" 
         ar 
         ar-modes="scene-viewer webxr quick-look" 
         ar-placement="wall" 
@@ -133,7 +133,7 @@
 <h1>Model Viewer Testing Again</h1>
     <!-- Load your local model -->
     <model-viewer
-        src="/kodama2.txt"
+        src="/kodama2.glb"
         alt="Kodama Model"
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -151,6 +151,7 @@
 
 </body>
 </html>
+
 
 
 
