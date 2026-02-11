@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <!--#include virtual="/includes/head-meta.shtml" -->
+    <!--#include virtual="https://twiku.com/includes/head-meta.shtml" -->
 
     <!-- ================================================================= -->
     <!-- EDIT THESE LINES FOR EACH PAGE (TITLE, DESCRIPTION, IMAGES, SCHEMA) -->
@@ -63,8 +63,8 @@
     }
     </script>
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://twiku.com/assets/css/style.css">
+    <link rel="icon" href="https://twiku.com/assets/images/favicon.ico">
 </head>
 
 <body>
@@ -86,7 +86,7 @@
     <meta charset="UTF-8">
     <title>Model Viewer Test</title>
     <!-- Load the local script -->
-    <script type="module" src="/assets/js/model-viewer.min.js"></script>
+    <script type="module" src="https://twiku.com/assets/js/model-viewer.min.js"></script>
 
    
       
@@ -150,6 +150,7 @@
   </div>
 
 </body>
+
 
 
 
