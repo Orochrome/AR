@@ -68,31 +68,32 @@
 </head>
 
 <body>
+
+
+
   <div class="page-wrapper">
     <header class="site-header">
-      <!--#include virtual="/includes/header.shtml" -->
-      <!--#include virtual="/includes/menu.shtml" -->
+      <!--#include virtual="https://twiku.com/includes/header.shtml" -->
+      <!--#include virtual="https://twiku.com/includes/menu.shtml" -->
     </header>
 
     <div class="content">
       <!-- NEW  CONTENT BELOW -->
-      
-  <!DOCTYPE html>
-<html>
-<head>
+<p>
+<p>
+
+
     <meta charset="UTF-8">
     <title>Model Viewer Test</title>
     <!-- Load the local script -->
     <script type="module" src="/assets/js/model-viewer.min.js"></script>
-</head>
-<body>
+
    
       
+ <p>
+<p>
       
-      
-      <!DOCTYPE html>
-<html lang="en">
-<head>
+ 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR Wall Poster Test</title>
@@ -106,8 +107,7 @@
             transform: translateX(-50%); cursor: pointer; font-size: 18px;
         }
     </style>
-</head>
-<body>
+
 
     <model-viewer 
         src="kodama2.glb" 
@@ -150,4 +150,5 @@
   </div>
 
 </body>
+
 
