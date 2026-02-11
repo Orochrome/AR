@@ -80,19 +80,20 @@
     <div class="content">
       <!-- NEW  CONTENT BELOW -->
 <p>
-
+<p>
+<p>
 
 
     <meta charset="UTF-8">
-    <title>Model Viewer Test</title>
+    <title>Model Viewer Testing</title>
     <!-- Load the local script -->
     <script type="module" src="https://twiku.com/assets/js/model-viewer.min.js"></script>
 
    
       
  </p>
-
-      
+</p>
+</p>      
  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -150,6 +151,7 @@
 
 </body>
 </html>
+
 
 
 
